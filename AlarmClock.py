@@ -1,5 +1,5 @@
 from datetime import date, datetime
-from playsound import playsound
+# from playsound import playsound
 alarm_time = input("Enter the time to set the alarm: HH:MM:SS \n")
 alarm_hour = alarm_time[0:2]
 alarm_minute = alarm_time[3:5]
@@ -17,5 +17,5 @@ while True:
             if(alarm_minute == current_minute):
                 if(alarm_seconds == current_second):
                     print("Wake up!!")
-                    playsound('audio.mp3')
+                    # playsound('audio.mp3')
                     break
